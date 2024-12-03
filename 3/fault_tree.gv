@@ -1,0 +1,12 @@
+// Fault Tree
+digraph {
+	A [label="System Failure"]
+	B [label="Subsystem 1 Failure"]
+	C [label="Subsystem 2 Failure"]
+	D [label="Component 1 Failure"]
+	E [label="Component 2 Failure"]
+	A -> B
+	A -> C
+	B -> D
+	C -> E
+}
